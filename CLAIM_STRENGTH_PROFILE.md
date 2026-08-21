@@ -34,8 +34,8 @@ empty-state semantics; a robots-style file with a `derivative:` directive.
 (All acknowledged by name in the prior-art section; a related but
 distinct pattern — claim-level provenance with graded transmitter
 reliability and quarantine routing — is also published, arXiv 2607.24117,
-and is cited, not claimed.) Seven one-off artifacts, no shared vocabulary, no schema, no
-conformance validator: a STANDARDS-PRODUCT gap, not a mechanism-absence
+and is cited, not claimed.) Eight one-off artifacts (the eighth verified and added after external
+review), no shared vocabulary, no schema, no conformance validator: a STANDARDS-PRODUCT gap, not a mechanism-absence
 gap. This document is the integration profile.
 
 ## What this document claims
@@ -46,7 +46,7 @@ only lever, exactly as with every access preference). The claim is the
 INTEROPERABLE FORM: the CONJUNCTION corpus-agnostic + machine-targeted +
 publisher-authored, in one profile — evidence-conditioned strength
 ceilings exist in domain-bound form (GRADE Summary-of-Findings; FDA SPL,
-both conceded below), and the seven fragments each hold one private
+both conceded below), and the eight fragments each hold one private
 piece; no public artifact holds the conjunction, nor ships a public
 conformance validator. Search scope: English-language web, arXiv, standards trackers,
 surveyed 2026-08-21, medium depth, recorded queries.
@@ -100,6 +100,25 @@ rather than surface phrasing — at which point conformance becomes
 type-checking and the wording lexicon becomes documentation. Readers of
 v1 should treat lexical conformance as a tripwire, not a proof.
 
+**Attribution, not world-truth (the boundary that keeps this from being
+a censorship interface).** The profile constrains what may be claimed AS
+GROUNDED IN THIS CORPUS — "based solely on this corpus, X is described"
+— and nothing else. It has NO authority over conclusions grounded in
+external evidence: a conforming reader remains entirely free to
+establish X from independent sources, and profile conformance may never
+be cited as if it bounded what is true in the world. A publisher profile
+invoked to suppress externally-grounded claims is MISUSED, and a
+conformance validator must treat external-evidence claims as out of its
+jurisdiction by construction. Where corpus-attributed and
+externally-grounded statements appear together, only the attribution
+clause is checkable: "this corpus describes X; independent evidence
+establishes X" is fully conforming. Under the v1 lexical validator,
+jurisdiction is determined fail-closed: external-evidence grounding must
+be EXPLICITLY MARKED in the reader's output; an unmarked or mixed claim
+is treated as corpus-attributed and checked against the profile. The
+marking convention is part of the profile's conformance surface, which
+keeps jurisdiction decidable at the lexical ceiling v1 honestly claims.
+
 **Scope of binding.** The profile binds everything a reader ASSERTS TO A
 DOWNSTREAM CONSUMER — summaries, conclusions, syntheses, any derived
 claim presented outward. Private reasoning is unbindable and out of
@@ -136,7 +155,7 @@ carry different ceilings.
 Not enforceable on any reader (stated plainly; the leverage model is the
 same reader-side honoring that AIPREF itself concedes). Not a licensing
 instrument, an access preference, or a provenance credential — it
-composes with all three. Not a claim that any fragment is ours: the seven
+composes with all three. Not a claim that any fragment is ours: the eight
 artifacts are prior art, named. Not a running system: no validator ships.
 
 ## Relation to prior art (acknowledged, by name)
@@ -156,7 +175,13 @@ with verbatim declared empty state); huggingface.co/datasets/2a-agency/
 brand-semantic-integrity-registry (12 misreading patterns);
 failureindex.ai (eight mechanism-typed failure modes); robots2.org
 (`derivative:` directive; its summarization control is `quote:
-short-only`). Corpus-agnostic reading guidance without ceilings:
+short-only`); and — verified 2026-08-22 — pagup.com/en/ai-use-policy, a
+vendor-published machine-facing surface with named layers, a nine-tier
+precedence hierarchy, per-claim-family admissible authorities (some
+families inadmissible), and explicit downgrade/abstention rules — the
+closest in-the-wild neighbor to this profile, self-scoped to claims
+about its own company, unilateral, and without any adopting consumer:
+an eighth fragment, not a convention. Corpus-agnostic reading guidance without ceilings:
 llms.txt (llmstxt.org, 2024) — publisher-authored, machine-directed, and
 the closest thing to a deployed convention in this space; acknowledged as
 a material neighbor. Domain-bound instances of ceilings-with-wording,
@@ -185,7 +210,7 @@ inverted commercial direction: GEO/AI-visibility products building
 
 Nothing is enforced anywhere: no validator exists, no reader honors the
 profile, and the publisher-side artifacts it integrates are one-off
-conventions. The profile's entire near-term value is (a) giving the seven
+conventions. The profile's entire near-term value is (a) giving the eight
 existing artifacts a common target, (b) making "this reader conforms" a
 checkable statement once the validator exists, and (c) the priority
 record itself. If reader-side honoring never emerges, this remains
